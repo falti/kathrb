@@ -35,5 +35,9 @@ export default defineConfig({
   },
   // treat markdown and other static files in presentation folders as assets
   assetsInclude: ['**/*.svg', '**/*.png', '**/*.jpg', '**/*.json', '**/*.md'],
-  server: { open: true },
+  server: { 
+    open: true,
+
+    
+  },
 });

@@ -1,3 +1,12 @@
+/* Bildunterschriften für Bilder im Markdown */
+.slide-caption {
+  display: block;
+  text-align: center;
+  font-size: .6em;
+  color: #888;
+  margin-top: 0.2em;
+  font-style: italic;
+}
 /* Shared theme tweaks */
 .reveal {
   font-family: system-ui, sans-serif;
@@ -6,6 +15,14 @@
   text-transform: none;
   margin-bottom: 0.5em;
 }
+.reveal section ul {
+  font-size: smaller;
+}
+
+.reveal section blockquote {
+  font-size: smaller;
+}
+
 .reveal section img {
   margin: 0 auto;
   background: none;
@@ -34,11 +51,11 @@
 
 /* Auto-scale all images in Reveal.js slides */
 .reveal .slides section img {
-  max-width: 80vb;
-  max-height: 80vh;
+  display: block;
+  max-width: 100%;
+  max-height: 50vh;
   width: auto;
   height: auto;
-  object-fit: contain;
   margin: 0 auto;
-  display: block;
+  object-fit: contain;
 }
