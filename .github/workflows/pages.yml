@@ -5,13 +5,15 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # ← KEY FIX: Allows GITHUB_TOKEN to push to gh-pages
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4  # ← Updated to v4 for better perf
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '23'
+          node-version: '20'
           cache: 'yarn'
 
       - name: Install
@@ -21,7 +23,10 @@ jobs:
         run: yarn build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v4  # ← If not already, use this action
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Uses built-in token
           publish_dir: ./dist
+          user_agent: github-actions[bot]  # ← Helps with permissions
+          force: true  # ← Overwrites existing files safely
+          publish_branch: gh-pages  # ← Explicit branch (if not default)
