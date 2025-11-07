@@ -136,6 +136,26 @@
 
 ![](./assets/slide4_greek.jpg)
 
+--
+
+### Septuaginta
+
+- **Septuaginta (LXX):** Älteste griechische Übersetzung der hebräischen Bibel (3.–2. Jh. v. Chr., Alexandria).
+- **Name:** Von „70“ Gelehrten (Legende im Aristeas-Brief).
+- **Inhalt:** Tora, Propheten, Schriften + deuterokanonische Bücher (z. B. Makkabäer).
+- **Bedeutung:** Bibel der hellenistischen Juden & frühen Christen; viele NT-Zitate aus LXX.
+- **Wichtige Handschriften:** Codex Vaticanus, Sinaiticus, Alexandrinus (4.–5. Jh.).
+
+--
+
+### Septuaginta Editionen
+
+
+- **Rahlfs-Hanhart (2006):** Standard.
+- **Göttingen:** Kritisch, laufend.
+- **Reader’s Edition (2018):** Mit Glossar.
+- **Online:** https://www.septuagint.bible, https://septuaginta.net/
+
 ---
 
 ## Entstehung der Bibel
@@ -233,6 +253,7 @@ Bibel des Alten Testaments von Origenes 182-234
 - **Bedeutung:** Sichert Einheit der inspirierten Schrift; beeinflusste Übersetzungen; Original verloren (7. Jh.).
 
 --
+
 ### Aufbau der Hexapla
 
 * In sechs parallelen Spalten:
@@ -242,3 +263,64 @@ Bibel des Alten Testaments von Origenes 182-234
   4. Übersetzung des Symmachus (um 200 n. Chr., idiomatisch und elegant).
   5. Septuaginta (LXX, die 70er Übersetzung, mit kritischer Bearbeitung durch Origenes: Asterisken \* für hebräische Ergänzungen und Obelisken ÷ für Überschüssiges).
   6. Übersetzung des Theodotion (um 180 n. Chr., nah am hebräischen Text).
+
+---
+
+## Aufbau der Bibel
+
+![Aufbau der Bibel](assets/slide_7_aufbau.svg)
+
+--
+
+### Altes Testament – 46 Bücher
+
+- Pentateuch (5):
+  - Genesis · Exodus · Levitikus · Numeri · Deuteronomium
+- Geschichtsbücher (16):
+  - Josua · Richter · Rut · 1–2 Samuel · 1–2 Könige · 1–2 Chronik · Esra · Nehemia · Tobit · Judit · Ester · 1–2 Makkabäer
+- Weisheitsbücher (7):
+  - Ijob · Psalmen · Sprichwörter · Kohelet · Hohelied · Weisheit · Jesus Sirach
+- Propheten (18):
+  - Jesaja · Jeremia · Klagelieder · Baruch · Ezechiel · Daniel ·
+  - Kleine Propheten (Zwölfprophetenbuch): 
+    - Hosea · Joel · Amos · Obadja · Jona · Micha · Nahum · Habakuk · Zefanja · Haggai · Sacharja · Maleachi
+
+--
+
+### Neues Testament – 27 Bücher
+
+- Evangelien (4):
+  - Matthäus · Markus · Lukas · Johannes
+- Apostelgeschichte (1)
+- Paulusbriefe (13):
+  - Römer · 1–2 Korinther · Galater · Epheser · Philipper · Kolosser · 1–2 Thessalonicher · 1–2 Timotheus · Titus · Philemon
+- Hebräerbrief (1)
+- Katholische Briefe (7):
+  - Jakobus · 1–2 Petrus · 1–3 Johannes · Judas
+- Offenbarung (Apokalypse) (1)
+
+---
+
+## Zugang zur Bibel
+
+--
+
+### Das Gleichnis vom Baum
+
+- Wie wächst ein Baum?
+- vom Kern nach aussen
+- im Kern noch alles «rund, ordentlich»
+- am unordentlichsten ist die Rinde
+
+--
+
+### Wie sicher treffen wir den Kern von aussen?
+
+![](./assets/baum.jpg)
+
+--
+
+### Alternative: von innen nach aussen
+
+- Baum spalten
+- Vom Kern → __der Liebe__ aus, treffen wir die Rinde in jeder beliebigen Richtung
