@@ -1,0 +1,24 @@
+Installationsanleitung für das Kopieren von Assets mit Vite:
+
+1. Plugin installieren:
+   yarn add -D vite-plugin-static-copy
+
+2. In vite.config.js einbinden:
+
+import { viteStaticCopy } from 'vite-plugin-static-copy';
+
+// ...
+plugins: [
+  viteStaticCopy({
+    targets: [
+      { src: 'src/presentations/*/assets/**/*', dest: 'presentations' },
+      { src: 'src/presentations/*/*.md', dest: 'presentations' },
+      { src: 'src/presentations/*/*.json', dest: 'presentations' }
+    ]
+  })
+],
+// ...
+
+Damit werden alle assets-Ordner und Markdown/JSON-Dateien aus den Präsentations-Unterordnern nach dist/presentations/... kopiert und sind per AJAX erreichbar.
+
+Melde dich, wenn ich die Konfig direkt einbauen soll!
