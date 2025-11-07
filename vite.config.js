@@ -1,25 +1,26 @@
 // vite.config.js
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
-import glob from 'glob';
+import { sync as globSync } from 'glob';
 
 export default defineConfig({
   root: 'src',
-  base: '/kathrb/',          // ← THIS IS THE MAGIC LINE
+  base: '/kathrb/',
   build: {
     outDir: '../dist',
     emptyOutDir: true,
     rollupOptions: {
-      input: () => {
+      input: (() => {
         const inputs = { main: resolve(__dirname, 'src/index.html') };
-        glob.sync('src/presentations/*/index.html').forEach(p => {
+        const presPaths = globSync('src/presentations/*/index.html');
+        presPaths.forEach(p => {
           const name = p.match(/presentations\/([^\/]+)/)?.[1];
-          if (name) inputs[name] = p;
+          if (name) inputs[name] = resolve(__dirname, p);
         });
         return inputs;
-      },
+      })(),
     },
   },
-  assetsInclude: ['**/*.md', '**/*.svg', '**/*.png', '**/*.json'],
+  assetsInclude: ['**/*.md', '**/*.svg', '**/*.png', '**/*.jpg', '**/*.json'],
   server: { open: true },
 });
