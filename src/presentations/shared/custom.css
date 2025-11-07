@@ -1,0 +1,44 @@
+/* Shared theme tweaks */
+.reveal {
+  font-family: system-ui, sans-serif;
+}
+.reveal h1, .reveal h2, .reveal h3 {
+  text-transform: none;
+  margin-bottom: 0.5em;
+}
+.reveal section img {
+  margin: 0 auto;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.reveal .footer {
+  position: fixed;
+  bottom: 10px;
+  left: 15px;
+  font-size: 0.7em;
+  color: #999;
+}
+.reveal .footer a { color: #4fc3f7; text-decoration: none; }
+
+.reveal table {
+  font-size: 0.6em;
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+.reveal th, .reveal td {
+  padding: 0.4em 0.8em;
+  border: 1px solid #555;
+}
+.reveal tr:nth-child(even) { background: rgba(255,255,255,0.05); }
+
+/* Auto-scale all images in Reveal.js slides */
+.reveal .slides section img {
+  max-width: 80vb;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
