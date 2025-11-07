@@ -217,3 +217,28 @@
 ### Muslime
 - Bibel als frühere Offenbarung (Tawrat – توراة, Zabur – زبور, Injil – إنجيل) anerkannt, aber verfälscht (tahrīf – تحريف)
 - Koran ersetzt sie
+
+---
+## Hexapla Bibel
+
+![Hexapla](assets/slide6_hexapla.png)
+
+Bibel des Alten Testaments von Origenes 182-234
+
+--
+### Hexapla
+
+- **Hexapla** (griech. Ἑξαπλᾶ – Hexaplâ, „sechs-fach“): Kritische Edition des AT von Origenes (griech. Ὠριγένης, ca. 184–253) um 230–240 in Cäsarea.
+- **Zweck:** Textkritik der LXX gegenüber hebräischem Original (griech. θεόπνευστος – theópneustos, „von Gott eingehaucht“).
+- **Bedeutung:** Sichert Einheit der inspirierten Schrift; beeinflusste Übersetzungen; Original verloren (7. Jh.).
+
+--
+### Aufbau der Hexapla
+
+* In sechs parallelen Spalten:
+  1. Hebräischer Text in hebräischen Buchstaben.
+  2. Hebräischer Text in griechischer Transliteration.
+  3. Übersetzung des Aquila von Sinope (um 130 n. Chr., wörtlich und jüdisch orientiert).
+  4. Übersetzung des Symmachus (um 200 n. Chr., idiomatisch und elegant).
+  5. Septuaginta (LXX, die 70er Übersetzung, mit kritischer Bearbeitung durch Origenes: Asterisken \* für hebräische Ergänzungen und Obelisken ÷ für Überschüssiges).
+  6. Übersetzung des Theodotion (um 180 n. Chr., nah am hebräischen Text).
